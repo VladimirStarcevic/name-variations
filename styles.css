@@ -1,0 +1,98 @@
+/* Globalni stilovi */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #1A1A1D; /* Tamna pozadina */
+    color: #FFFFFF; /* Bela boja teksta */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navigacija */
+.navbar {
+    background-color: #E95420; /* Ubuntu narandžasta */
+    color: #FFFFFF;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.nav-brand {
+    margin: 0;
+    font-size: 2.5rem; /* Veći font za naziv aplikacije */
+}
+
+/* Glavni sadržaj */
+.container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.label {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #E95420;
+}
+
+.input {
+    width: 100%;
+    max-width: 600px;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border: 2px solid #E95420;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #C34115;
+    box-shadow: 0 0 10px rgba(233, 84, 32, 0.5);
+}
+
+/* Stilizacija za tabelu */
+.table {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 2rem;
+    border-collapse: collapse;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+
+.table th, .table td {
+    padding: 1rem;
+    text-align: left;
+    border: 1px solid #333;
+}
+
+.table th {
+    background-color: #4B214A;
+    font-size: 1.4rem;
+    color: #E95420;
+}
+
+.table td {
+    background-color: #333;
+    color: #E5E5E5;
+}
+
+/* Stilizacija za rezultat */
+.result {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-size: 1.2rem;
+}

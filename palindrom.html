@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navigacija -->
+<nav class="navbar">
+    <h1 class="nav-brand">Name Variations</h1>
+</nav>
+
+<!-- Glavni sadržaj -->
+<main class="container">
+    <div>
+        <label class="label" for="your-name">Enter your name</label>
+        <input type="text" class="input" placeholder="Your name" id="your-name" autocomplete="off">
+    </div>
+
+    <!-- Tabela sa rezultatima -->
+    <table class="table" border="1">
+        <thead>
+        <tr>
+            <th width="200px">Variation</th>
+            <th>Result</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Number of characters</td>
+            <td id="answer1"></td>
+        </tr>
+        <tr>
+            <td>First character</td>
+            <td id="answer2"></td>
+        </tr>
+        <tr>
+            <td>Last character</td>
+            <td id="answer3"></td>
+        </tr>
+        <tr>
+            <td>Lower case</td>
+            <td id="answer4"></td>
+        </tr>
+        <tr>
+            <td>Upper case</td>
+            <td id="answer5"></td>
+        </tr>
+        <tr>
+            <td>Capitalize</td>
+            <td id="answer6"></td>
+        </tr>
+        </tbody>
+    </table>
+</main>
+
+<!-- Uvođenje glavnog JavaScript modula -->
+<script src="index.js" type="module"></script>
+</body>
+</html>
