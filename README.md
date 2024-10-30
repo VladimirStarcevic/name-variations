@@ -10,6 +10,13 @@ This project is in its initial phase, inspired by Jed Jubran's frontend developm
     - Lowercase and uppercase transformations
     - Capitalization
 - **Responsive UI**: Styled with a clean, dark theme and contrasting colors for better readability and a modern look.
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Git
+- GitHub for version control
 
 ## Future Plans
 
